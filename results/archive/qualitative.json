@@ -1,0 +1,50 @@
+[
+  {
+    "i": 3,
+    "ticket": "Cho mình hỏi, mình đặt bình giữ nhiệt mã đơn VN804124. Chưa thấy tiền.",
+    "ft_score": 0.75,
+    "ft_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"bình giữ nhiệt\", \"sentiment\":"
+  },
+  {
+    "i": 5,
+    "ticket": "Shop ơi, mình đặt nồi chiên không dầu mã đơn DH249548. Thiếu phụ kiện.",
+    "ft_score": 0.75,
+    "ft_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"trung_binh\", \"product\": \"nồi chiên không dầu\", \"sen"
+  },
+  {
+    "i": 0,
+    "ticket": "Cho mình hỏi, mình đặt chuột không dây mã đơn VN232232. Cho tôi trả lạ",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"cao\", \"product\": \"chuột không dây\", \"sentiment\": \"tich_c"
+  },
+  {
+    "i": 1,
+    "ticket": "Shop ơi, mình đặt ốp lưng điện thoại mã đơn VN812931. Hoàn tiền. Sớm n",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentime"
+  },
+  {
+    "i": 2,
+    "ticket": "Xin chào, mình đặt đèn bàn LED mã đơn VN880807. Hoàn tiền. Quá hạn rồi",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"hoan_tien\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"tich_cuc"
+  },
+  {
+    "i": 4,
+    "ticket": "Cho mình hỏi, mình đặt đèn bàn LED mã đơn VN339109. Vỡ khi nhận. Gấp. ",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"san_pham_loi\", \"urgency\": \"cao\", \"product\": \"đèn bàn LED\", \"sentiment\": \"trung"
+  },
+  {
+    "i": 6,
+    "ticket": "Xin chào, mình đặt balo laptop mã đơn DH863123. Đổi size. Hỏi cho biết",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"thap\", \"product\": \"balo laptop\", \"sentiment\": \"tieu_cuc\""
+  },
+  {
+    "i": 7,
+    "ticket": "Alo shop, mình đặt máy xay sinh tố mã đơn OD126693. Muốn đổi. Đã 3 ngà",
+    "ft_score": 1.0,
+    "ft_pred": "{\"intent\": \"doi_tra\", \"urgency\": \"trung_binh\", \"product\": \"máy xay sinh tố\", \"sentiment\": "
+  }
+]
