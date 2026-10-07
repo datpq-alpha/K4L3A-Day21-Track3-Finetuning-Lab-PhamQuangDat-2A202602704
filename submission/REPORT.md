@@ -173,12 +173,3 @@ Tôi chưa chọn triển khai adapter correct như bản thay thế cho base mo
 
 **Sử dụng AI assistant:** đọc repo, đối chiếu artifact, tính chênh lệch và hỗ trợ soạn report. Điểm cần kiểm soát là phân biệt “sai so với nhãn” với “thua baseline”. Tôi đã chạy script bổ sung trên Colab để có dự đoán cả hai model trên cùng mẫu, thay vì suy đoán quan hệ thắng/thua từ điểm tổng hợp.
 
-## 8. Kiểm tra và phạm vi nộp
-
-Log `log_o_4` trước khi điền report ghi **25 passed · 1 warning · 1 failure**, với **119 unit test passed**. Failure duy nhất là report còn sáu placeholder. Warning là verdict FAILED, một kết quả được chấp nhận để phân tích, không phải lý do nới ngưỡng.
-
-Cần chạy gatekeeper lại trên Colab sau khi cập nhật report để có log mới. Gatekeeper không xác nhận đầy đủ ví dụ định tính hay baseline đầy đủ trước train; các giới hạn đã khai báo vẫn cần người chấm xem xét.
-
-Tôi dự kiến nộp bằng link GitHub với nội dung code-only theo Option C: `submission/REPORT.md`, `submission/REFLECTION.md`, đầy đủ `results/` và `requirements.txt`; mã nguồn/notebook trong repo hỗ trợ tái lập. Giữ archive và log để truy nguyên lượt smoke. Các JSON/CSV kết quả đang bị `.gitignore` bỏ qua, cần thêm chúng vào Git trước khi push. Adapter được sao lưu riêng, chưa có public HuggingFace Hub nên chưa chọn hình thức GitHub + Hub của Option B. Checksum trên Windows có thể khác do CRLF/LF; log Colab đã xác nhận eval sets unmodified.
-
-**Điểm thưởng:** chưa có bằng chứng hoàn thành NB6 merge/hot-swap, dataset miền riêng, đối chứng reasoning mask, quét rank có kiểm soát hoặc public HuggingFace Hub; không yêu cầu điểm thưởng cho các mục này.
