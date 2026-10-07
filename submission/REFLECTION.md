@@ -8,7 +8,7 @@ Cùng một adapter, đánh giá 8 mẫu cho PASS nhưng đánh giá đầy đ�
 
 **2. Thời gian và việc phát sinh**
 
-Trong lượt đánh giá bổ sung, NB5 mất 661 giây, lâu hơn NB2 với 309 giây. Tôi còn phải thu thêm output từng mẫu vì các file ban đầu chỉ lưu điểm baseline tổng hợp. Không có nhật ký thời gian thao tác để kết luận phần nào mất nhiều công nhất.
+Trong lượt đánh giá bổ sung, NB5 mất 661 giây, lâu hơn NB2 với 309 giây. Tôi còn phải thu thêm output từng mẫu vì các file ban đầu chỉ lưu điểm baseline tổng hợp.
 
 **3. Cách tôi nhìn fine-tuning sau bài này**
 
